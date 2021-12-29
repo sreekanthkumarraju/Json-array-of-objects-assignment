@@ -1,3 +1,5 @@
+                         JSON ARRAY OF OBJECTS
+                         --------------------
 let person=[
 {
       id:"12a1",
@@ -29,7 +31,8 @@ id:"12a3",
       CIty:"Mumbai",
       PhoneNumber:"8922654390"
 },
-{id:"12a4",
+{
+id:"12a4",
 FirstName: "Hrithik",
 Lastname:"Rohan",
 Email:"Hrithik@gmail.com",
@@ -93,22 +96,28 @@ CIty:"Ahmadabad",
 PhoneNumber:"8929654390"}]
 
 
-
+//for loop
 for(var i=0;i<person.length;i++)
-{
-  console.log(person[i])
-}
+   {
+        console.log("person",i,"details",person[i])
+    }
 
+//for of LOOP
 for(var details of person )
-{
-  console.log(details)
-}
-
-person.forEach(details=>
-   console.log(details))
+   {
+        console.log(details)
+   }
+  //forEach LOOP
+    person.forEach((details,index)=>
+    console.log("person",index,"details" , details))
+   
+   //FOR IN LOOP
+    for(var details in person){
+    console.log("person",details,"details",person[details])
+   }
    
    //Display FIrst Name
-   for(var i=0;i<person.length;i++)
-      {
+    for(var i=0;i<person.length;i++)
+        {
            console.log(person[i].FirstName)
        }
