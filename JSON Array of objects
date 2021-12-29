@@ -1,0 +1,114 @@
+let person=[
+{
+      id:"12a1",
+      FirstName: "sree",
+      Lastname:"raju",
+      Email:"sree@gmail.com",
+      Age:24,
+      Profession:"Full stack developer",
+      CIty:"Tirupathi",
+      PhoneNumber:"8978654390"
+},
+{
+       id:"12a2",
+      FirstName: "ravi",
+      Lastname:"reddy",
+      Email:"ravi@gmail.com",
+      Age:28,
+      Profession:"Full stack developer",
+      CIty:"Tirupathi",
+      PhoneNumber:"9878654390"
+},
+{
+id:"12a3",
+      FirstName: "jhon",
+      Lastname:"Abraham",
+      Email:"jhon@gmail.com",
+      Age:25,
+      Profession:"Full stack developer",
+      CIty:"Mumbai",
+      PhoneNumber:"8922654390"
+},
+{id:"12a4",
+FirstName: "Hrithik",
+Lastname:"Rohan",
+Email:"Hrithik@gmail.com",
+Age:25,
+Profession:"Full stack developer",
+CIty:"Mumbai",
+PhoneNumber:"8923654390"},
+{
+  id:"12a5",
+FirstName: "Abhisheik",
+Lastname:"Bachhan",
+Email:"Abhi@gmail.com",
+Age:26,
+Profession:"Full stack developer",
+CIty:"Tirupathi",
+PhoneNumber:"8924654390"},
+{
+  id:"12a6",
+FirstName: "Sundar",
+Lastname:"Pichai",
+Email:"sundai@gmail.com",
+Age:28,
+Profession:"Full stack developer",
+CIty:"CHennai",
+PhoneNumber:"8925654390"},
+{
+  id:"12a7",
+FirstName: "Satya",
+Lastname:"Nadella",
+Email:"Satya@gmail.com",
+Age:29,
+Profession:"Full stack developer",
+CIty:"Godavari",
+PhoneNumber:"8926654390"},
+{
+  id:"12a8",
+FirstName: "Barack",
+Lastname:"Obama",
+Email:"Barack@gmail.com",
+Age:26,
+Profession:"Full stack developer",
+CIty:"New YORK",
+PhoneNumber:"8926654390"},
+{
+  id:"12a9",
+FirstName: "Donald",
+Lastname:"Trump",
+Email:"Trump@gmail.com",
+Age:27,
+Profession:"Full stack developer",
+CIty:"Texas",
+PhoneNumber:"8927654390"},
+{
+  id:"12a10",
+FirstName: "Narendra",
+Lastname:"Modi",
+Email:"Modi@gmail.com",
+Age:29,
+Profession:"Full stack developer",
+CIty:"Ahmadabad",
+PhoneNumber:"8929654390"}]
+
+
+
+for(var i=0;i<person.length;i++)
+{
+  console.log(person[i])
+}
+
+for(var details of person )
+{
+  console.log(details)
+}
+
+person.forEach(details=>
+   console.log(details))
+   
+   //Display FIrst Name
+   for(var i=0;i<person.length;i++)
+      {
+           console.log(person[i].FirstName)
+       }
